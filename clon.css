@@ -1,0 +1,912 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+#page1{
+    width: 100%;
+    height: 100%;
+   background-color: black;
+}
+ #page1 img{ 
+    width: 40%;
+    height: 95.5%;
+    /* object-fit: cover; */
+    margin-left: 420px;
+}
+#nav{
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+}
+#nav h5{
+    font-size: 13px;
+    color: gray;
+}
+#nav i{
+    color:aliceblue;
+}
+#nav2{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(240, 248, 255, 0.176);
+    display: flex;
+    justify-content: space-around;
+    gap: 330px;
+    align-items: center;
+}
+#nav2 h4{
+    font-size: 24px;
+    color: rgba(245, 245, 245, 0.88);
+}
+#nav2 h3{
+    font-size: 15px;
+    font-weight: 500;
+    background-color: white;
+    padding: 3px 10px;
+    border-radius: 50px;
+}
+#text h1{
+    color:grey;
+    font-size: 30px;
+    margin-top: -130px;
+    margin-left: 622px;
+}
+#text i{
+    color: black;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+#text h2{
+    color: black;
+    font-size: 60px;
+    font-weight: 540;
+    margin-top: -62px;
+    margin-left: 567px;
+}
+#page2{
+    width: 100%;
+    height: 160%;
+    background-color: aliceblue;
+    position: relative;
+}
+#page2 h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: -1px;
+    font-size: 50px;
+    margin-left: 250px;
+    padding-top: 260px;   
+}
+#i i{
+    color: rgba(240, 248, 255, 0.593);
+    position: absolute;
+    font-size: 45px;
+    top: 39%;
+    left: 91%;
+}
+#video1{
+    width: 90%;
+    height: 60%;
+    margin-top: 70px;
+    margin-left: 73px;
+    background-color: red;
+}
+#video1 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#page3{
+    width: 100%;
+    height: 200%;
+    /* background-color:red; */
+}
+#page3 h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: -4px;
+    font-weight: 600;
+    font-size: 60px;
+    margin-left: 40px;
+    padding-top: 190px;
+    text-align: center;
+    line-height: 58px;
+}
+#video2{
+    width: 90%;
+    height: 60%;
+    background-color: aquamarine;
+    margin-top: 100px;
+    margin-left: 75px;
+}
+#video2 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#page4{
+    width: 100%;
+    height: 170%;
+    background-color: aliceblue;
+    position: relative;
+}
+#page4 h1{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: -4px;
+    font-weight: 600;
+    font-size: 60px;
+    margin-left: 40px;
+    padding-top: 190px;
+    text-align: center;
+    line-height: 58px;
+}
+#video3{
+    width: 90%;
+    height: 60%;
+    background-color: aquamarine;
+    margin-top: 100px;
+    margin-left: 75px;
+}
+#video3 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#i1 i{
+    position: absolute;
+    color: rgba(240, 248, 255, 0.593);
+    font-size: 45px;
+    top: 39%;
+    left: 91%;
+}
+#page5{
+    width: 100%;
+    height: 150%;
+    background-color: aliceblue;
+    position: relative;
+}
+#page5 h1{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: -4px;
+    font-weight: 600;
+    font-size: 60px;
+    margin-left: 40px;
+    padding-top: 190px;
+    text-align: center;
+    line-height: 58px;
+}
+#video4{
+    width: 90%;
+    height: 60%;
+    background-color: aquamarine;
+    margin-top: 100px;
+    margin-left: 75px;
+}
+#video4 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#i2 i{
+    position: absolute;
+    color: rgba(240, 248, 255, 0.593);
+    font-size: 45px;
+    top: 45%;
+    left: 91%;
+}
+#page6{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    position: relative;
+}
+#page6 h1{
+    margin-left: 110px;
+    font-size: 45px;
+    padding-top: 130px;
+}
+#page6 h2{
+    font-weight: 600;
+    padding-top: 160px;
+    margin-left: 490px;
+    font-size: 95px;
+
+}
+#app i{
+   position: absolute;
+   font-size: 90px;
+   left: 29%;
+   top: 50.3%;
+}
+#right h5{
+    margin-left: 470px;
+    padding-top: 60px;
+    font-size: 25px;
+    color: orange;
+}
+#right i{
+  position: absolute;
+  top: 76%;
+  left: 45.2%;
+  font-size: 25px;
+  color: orange;
+}
+#left h4{
+    position: absolute;
+    font-size: 25px;
+    left: 51%;
+    top: 76%;
+    color: orange;
+}
+#left i{
+    position: absolute;
+    font-size: 35px;
+    left: 63%;
+    top: 75.3%;
+    color: orange;
+}
+#left h5{
+    position: absolute;
+    font-size: 35px;
+    left: 30%;
+    top: 86%;
+}
+#page7{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    position: relative;
+}
+#view{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+#view img{
+    width: 80%;
+    height: 50%;
+    background-color: aliceblue;
+}
+#page7 h4{
+    background-color:transparent;
+    border: 2px solid black;
+    padding-left: 30px;
+    padding-top: 13px;
+    border-radius: 30px;
+    width: 25%;
+    height: 8%;
+    margin-left: 490px;
+    color:black;
+    margin-top: -150px;
+    font-size: 22px;
+}
+#page7 i{
+    position: absolute;
+    left: 35.5%;
+    top: 80%;
+    font-size: 22px;
+    font-weight: 700;  
+}
+#page8{
+    width: 100%;
+    height: 250%;
+    background-color: white;
+    position: relative;
+}
+#page8 h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 630px ;
+    padding-top: 60px;
+}
+#page8 h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 80px;
+    position: absolute;
+    top: 5%;
+    left: 9%;
+    text-align: center;
+    margin-left: 100px;
+    line-height: 80px;
+    letter-spacing: -2px;
+}
+#video5{
+    width: 90%;
+    height: 45%;
+    background-color: red;
+    margin-top: 240px;
+    margin-left: 70px;
+}
+#video5 video{
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+}
+#video5 i{
+    color:  rgba(240, 248, 255, 0.593);;
+    font-size: 40px;
+    position: absolute;
+    top: 22%;
+    left: 90%;
+}
+#video5 h1{
+    margin-top: 80px;
+    margin-left: 209px;
+    font-size: 25px;
+}
+#video5 h5{
+    font-size: 23px;
+    margin-left: 530px;
+    margin-top: -53px;
+}
+#video5 button{
+    border-radius: 50px;
+    background-color: rgba(255,90,0,1);
+    font-weight: 600;
+    border:none;
+    color: white;
+    margin-left:530px;
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 20px 80px;
+}
+#page9{
+    width: 100%;
+    height: 250%;
+    /* background-color: red; */
+}
+#page9 h1{
+ margin-left:550px;
+}
+#page9 h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 70px;
+}
+#video6{
+    width: 85%;
+    height: 60%;
+    /* background-color: chartreuse;    */
+    margin-top: 80px;
+    margin-left: 100px;
+}
+#video6 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#video6 i{
+    font-size: 40px;
+    position: relative;
+    left: 93%;
+    top: -93%;
+}
+#video6 h1{
+    margin-left: 110px;
+
+}
+#video6 h3{
+    font-size: 25px;
+    margin-top: -60px;
+    margin-left: 530px;
+
+}
+#video6 h4{
+    padding-left: 35px;
+    padding-top: 16px;
+    border-radius: 30px;
+    width: 37%;
+    height: 6%;
+    color: azure;
+    background-color: rgba(255,90,0,1);;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-left: 530px;
+}
+#page10{
+    width: 100%;
+    height: 360%;
+    background-color: whitesmoke;
+    position: relative;
+}
+#img2{
+    position: absolute;  
+    width: 60%;
+    height: 55%;
+    left: 40%;
+    top:27%;
+    /* background-color: brown;   */
+}
+#img2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 20%;
+}
+#page10 #form{
+    width: 900px;
+    height: 600px;
+    /* background-color:wheat; */
+    position: absolute;
+    left: 20%;
+    top: 0%;
+    align-items: center;
+    justify-content: center;
+}
+#page10 #form h1{
+    color: black;
+    font-size: 30px;
+    margin-left:270px;
+    margin-top: 90px;
+}
+#page10 #form  h2{
+    color: black;
+    font-size: 80px;
+    margin-left: -5px;
+    margin-top: -30px;
+   
+}
+#page10 #form h3{
+    font-size: 27px;
+    margin-left: -55px;
+    
+    
+}
+#page10 h1{
+    color: gray;
+    font-size: 25px;
+    position: relative;
+    top: 35%;
+    left: 10%;
+}
+#page10 span{
+    color: black;
+}
+#page10 h2{
+    color: gray;
+    position: relative;
+    font-size: 25px;
+    top: 40%;
+    left: 10%;  
+}
+#page10 span{
+    color: black;
+}
+#page10 h3{
+    color: gray;
+    position: relative;
+    font-size: 25px;
+    top: 45%;
+    left: 10%;  
+}
+#page10 h4{
+    color: gray;
+    position: relative;
+    font-size: 25px;
+    top: 50%;
+    left: 10%;  
+}
+#page10 h5{
+    color: gray;
+    position: relative;
+    font-size: 25px;
+    top: 55%;
+    left: 10%;  
+}
+#page11{
+    width: 100%;
+    height: 110%;
+    /* background-color: greenyellow; */
+    position: relative;
+}
+#img3{
+    width: 90%;
+    height: 90%;
+    background-color: linen;
+    position: absolute;
+    top: -50%;
+    margin-left: 65px;
+}
+#img3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#img3 span{
+    color: black;
+    
+}
+#img3 h1{
+    color: grey;
+    font-size: 25px;
+}
+#page12{
+    width: 100%;
+    height: 100%;
+    /* background-color: green; */
+    position: relative;
+    top: -50%;
+    display: flex;
+    gap: 50px;
+}
+#part1{
+    width: 600px;
+    height: 600px;
+    background-color: red;
+    margin-left: 80px;
+}
+#part1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#part2{
+    width: 600px;
+    height: 600px;
+    background-color: red;
+}
+#part2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#page13{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    position: relative;
+    top: -50%;
+}
+#img4{
+    width: 90%;
+    height: 90%;
+    background-color: black;
+    margin-left: 70px;
+}
+#img4 h1{
+    font-size: 29px;
+    text-align: center;
+    margin-top: 70px;
+}
+#img4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#page14{
+    width: 100%;
+    height: 120%;
+    /* background-color: green; */
+}
+#img5 img{
+      width: 80%;
+      height: 70%;
+      margin-left: 160px;
+}
+#img5 button{
+    font-size: 25px;
+    margin-left: 540px;
+    border-radius: 50px;
+    padding: 15px 10px 20px 10px;
+    background-color: rgba(255,90,0,1);
+    border: none;
+    color: aliceblue;
+    width: 25%;
+}
+#page15{
+    width: 100%;
+    height: 200%;
+    /* background-color: red; */
+    position: relative;
+    top: 40%;
+}
+#img6{
+    width: 90%;
+    height: 60%;
+    background-color: aqua;
+    margin-left: 70px;
+}
+#img6 img{
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+}
+#img6 h1{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#img6 h2{
+    font-size: 24px;
+    margin-left: 500px;
+    margin-top: -68px;
+}
+#img6 button{
+    background-color:  rgba(255,90,0,1);
+    border: none;
+    border-radius: 30px;
+    width: 25%;
+    font-size: 20px;
+    height: 6%;
+    margin-left: 500px;
+    margin-top: 35px;
+}
+#page16{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: relative;
+    top: 30%;
+}
+#page16 h1{
+    color: aliceblue;
+    position: absolute;
+    left: 44%;
+    top: 10%;
+}
+#page16 h2{
+    color: aliceblue;
+    position: absolute;
+    font-size: 80px;
+    left: 27%;
+    top: 18%;
+    text-align: center;
+}
+#page16 h3{
+    color: aliceblue;
+    position: absolute;
+    font-size: 25px;
+    left: 23%;
+    top: 48%;
+    text-align: center;
+}
+#page17{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#img7{
+    width: 70%;
+    height: 90%;
+    background-color: aliceblue;
+    position: relative;
+    top: 10%;
+    left: 15%;
+}
+#img7 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#page18{
+    width: 100%;
+    height: 200%;
+    background-color: black;
+
+}
+#page18 h1{
+    color: aliceblue;
+    font-size: 35px;
+    margin-left: 400px;
+    padding-top: 30px;
+}
+#page18 h2{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 40px;
+}
+#img8{
+    width: 100%;
+    height: 80%;
+    background-color: red;
+}
+#img8 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#img8 h3{
+    color: white;
+    font-size: 35px;
+    margin-left: 840px;
+    margin-top: -400px;
+}
+#img8 h4{
+    color: rgba(255, 255, 255, 0.394);
+    font-size: 20px;
+    margin-left: 840px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+#img8  h4 span{
+    color: aliceblue;
+}
+#page19{
+    width: 100%;
+    height: 130%;
+    background-color: black;
+}
+#page19 img{
+    margin-left: 220px;
+}
+#page19 h1{
+    color: aliceblue;
+    margin-left: 460px;
+    margin-top: 30px;
+}
+#page19 h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: rgba(240, 248, 255, 0.386);
+    margin-left: -1px;
+    margin-top: 30px;
+}
+#page19 h2 span{
+    color: aliceblue;
+}
+#page20{
+    width: 100%;
+    height: 140%;
+    background-color:black;
+}
+#page20 img{
+   margin-left: 180px;
+}
+#page20 h1{
+    color: aliceblue;
+    margin-left: 485px;
+}
+#page20 h2{
+    color: rgba(240, 248, 255, 0.329);
+    text-align: center;
+    margin-left: -1px;
+    margin-top: 40px;
+}
+#page20 h2 span{
+   
+    color: aliceblue;
+}
+#page21{
+    width: 100%;
+    height: 120%;
+    background-color: bisque;
+}
+#img9{
+    width: 100%;
+    height: 100%;
+    background-color: blue; 
+}
+#img9 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#img9 h1{
+    text-align: center;
+    color: aliceblue;
+    margin-top: -120px;
+    margin-left: -10px;
+}
+#page22{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#page22 h2{
+    text-align: center;
+    color: rgba(240, 248, 255, 0.381);
+    margin-left: -2px;
+}
+#page22 h2 span{
+    color: aliceblue;
+
+}
+#page22 button{
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 15px 30px 15px 30px ;
+    margin-top: 70px;
+    margin-left: 490px;
+}
+#page23{
+    width: 100%;
+    height: 120%;
+    /* background-color: red; */
+}
+#apple img{
+    width: 80px;
+    height: 80px;
+    margin-left: 670px;
+    margin-top: 60px;
+}
+#apple h1{
+    margin-top: 30px;
+    margin-left: 570px;
+    
+}
+#apple h2{
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: -5px;
+}
+#apple h3{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 25px;
+    font-size: 25px;
+
+}
+#apple button{
+    font-size: 22px;
+    padding: 20px 30px 20px 30px;
+    margin-left: 480px;
+    margin-top: 30px;
+    border-radius: 50px;
+    background-color: orangered;
+}
+#page24{
+    width: 100%;
+    height: 104%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 190px;
+}
+#r{
+    width: 600px;
+    height: 600px;
+    /* background-color: red; */
+}
+#r img{
+    margin-top: 140px;
+    margin-left: 110px;
+}
+#r h3{
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-left:110px; 
+    line-height: 60px;
+}
+#r h4{
+    font-size: 23px;
+    color: rgb(124, 121, 121);
+    margin-left:110px;
+    line-height: 25px; 
+    margin-top: 15px;
+}
+#l{
+    width: 550px;
+    height: 690px;
+    /* background-color:green;  */
+    
+}
+#l img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
